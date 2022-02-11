@@ -56,7 +56,12 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
+    ignoreDuringBuilds: true,
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
+  },
+  images: {
+    loader: 'akamai',
+    path: 'https://studiomate.github.io/tech-blog/',
   },
   async headers() {
     return [
