@@ -80,7 +80,7 @@
       )
     }),
     (n.miniCssF = function (e) {
-      return 'static/css/46f1c4cf836409bd.css'
+      return 'static/css/cde277035a67b3fa.css'
     }),
     (n.g = (function () {
       if ('object' === typeof globalThis) return globalThis
@@ -143,7 +143,7 @@
         Object.defineProperty(e, Symbol.toStringTag, { value: 'Module' }),
         Object.defineProperty(e, '__esModule', { value: !0 })
     }),
-    (n.p = '/_next/'),
+    (n.p = '/tech-blog/_next/'),
     (function () {
       var e = { 272: 0 }
       ;(n.f.j = function (t, r) {
