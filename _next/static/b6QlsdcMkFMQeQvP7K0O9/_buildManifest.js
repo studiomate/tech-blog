@@ -1,6 +1,6 @@
 ;(self.__BUILD_MANIFEST = (function (s, a, e, t) {
   return {
-    __rewrites: { beforeFiles: [], afterFiles: [{ source: '/:path*' }], fallback: [] },
+    __rewrites: { beforeFiles: [], afterFiles: [], fallback: [] },
     '/': ['static/chunks/pages/index-0dc6b67a33e97ac6.js'],
     '/404': ['static/chunks/pages/404-2c141aebd0a30053.js'],
     '/_error': ['static/chunks/pages/_error-34b1906f689dcf74.js'],
