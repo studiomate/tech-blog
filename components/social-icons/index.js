@@ -1,26 +1,19 @@
-import Mail from './mail.svg'
-import Github from './github.svg'
-import Facebook from './facebook.svg'
-import Youtube from './youtube.svg'
-import Linkedin from './linkedin.svg'
-import Twitter from './twitter.svg'
+import Image from 'next/image'
+// import Blog from './blog.png'
+// import Instagram from './instagram.png'
+// import Facebook from './facebook.png'
 
-// Icons taken from: https://simpleicons.org/
-
-const components = {
-  mail: Mail,
-  github: Github,
-  facebook: Facebook,
-  youtube: Youtube,
-  linkedin: Linkedin,
-  twitter: Twitter,
-}
+// const components = {
+//   blog: Blog,
+//   facebook: Facebook,
+//   instagram: Instagram,
+// }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {
   if (!href || (kind === 'mail' && !/^mailto:\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/.test(href)))
     return null
 
-  const SocialSvg = components[kind]
+  // const SocialSvg = components[kind]
 
   return (
     <a
@@ -30,9 +23,10 @@ const SocialIcon = ({ kind, href, size = 8 }) => {
       href={href}
     >
       <span className="sr-only">{kind}</span>
-      <SocialSvg
+      <Image src={`/static/images/${kind}.png`} width="40px" height="40px" />
+      {/* <SocialSvg
         className={`fill-current text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 h-${size} w-${size}`}
-      />
+      /> */}
     </a>
   )
 }
