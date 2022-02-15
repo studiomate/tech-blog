@@ -1,0 +1,18 @@
+{
+  "pageProps": {
+    "authorDetails": {
+      "mdxSource": "var Component=(()=>{var c=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var x=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var s=t=>o(t,\"__esModule\",{value:!0});var l=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),f=(t,e)=>{s(t);for(var a in e)o(t,a,{get:e[a],enumerable:!0})},j=(t,e,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let n of x(e))!g.call(t,n)&&n!==\"default\"&&o(t,n,{get:()=>e[n],enumerable:!(a=u(e,n))||a.enumerable});return t},_=t=>j(s(o(t!=null?c(p(t)):{},\"default\",t&&t.__esModule&&\"default\"in t?{get:()=>t.default,enumerable:!0}:{value:t,enumerable:!0})),t);var i=l((C,m)=>{m.exports=_jsx_runtime});var b={};f(b,{default:()=>M,frontmatter:()=>d});var r=_(i()),d={name:\"\\uC2A4\\uD29C\\uB514\\uC624\\uBA54\\uC774\\uD2B8\",avatar:\"/static/images/avatars/logo-black.svg\",email:\"support@studiomate.kr\"};function v(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,Object.assign({},t,{children:(0,r.jsx)(a,{})})):a();function a(){return(0,r.jsx)(r.Fragment,{})}}var M=v;return b;})();\n;return Component;",
+      "toc": [],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.145, "time": 8700, "words": 29 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "스튜디오메이트",
+        "avatar": "/static/images/avatars/logo-black.svg",
+        "email": "support@studiomate.kr",
+        "date": null
+      }
+    }
+  },
+  "__N_SSG": true
+}
