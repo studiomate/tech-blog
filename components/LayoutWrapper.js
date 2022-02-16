@@ -9,6 +9,8 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { useTheme } from 'next-themes'
 
+const prefix = process.env.NODE_ENV === 'production' ? 'https://studiomate.github.io/tech-blog' : ''
+
 const LayoutWrapper = ({ children }) => {
   const { theme, setTheme, resolvedTheme } = useTheme()
 
@@ -17,7 +19,7 @@ const LayoutWrapper = ({ children }) => {
       <div className="flex h-screen flex-col justify-between">
         <header className="flex items-center justify-between py-10">
           <div>
-            <Link href="/" aria-label={siteMetadata.headerTitle}>
+            <Link href={prefix + '/'} aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">{theme === 'light' ? <Logo /> : <WhiteLogo />}</div>
               </div>
@@ -28,7 +30,7 @@ const LayoutWrapper = ({ children }) => {
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
-                  href={link.href}
+                  href={prefix + link.href}
                   className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
                 >
                   {link.title}
