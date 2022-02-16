@@ -1,0 +1,26 @@
+;(self.__BUILD_MANIFEST = {
+  __rewrites: { beforeFiles: [], afterFiles: [], fallback: [] },
+  '/': ['static/chunks/pages/index-dc08337ee310f302.js'],
+  '/404': ['static/chunks/pages/404-1c78c77a2328627b.js'],
+  '/_error': ['static/chunks/pages/_error-2280fa386d040b66.js'],
+  '/blog': ['static/chunks/pages/blog-345140e4f80f22c3.js'],
+  '/blog/page/[page]': ['static/chunks/pages/blog/page/[page]-0eea380c2ba99862.js'],
+  '/blog/[...slug]': [
+    'static/chunks/390-79af91f0d02f0ff4.js',
+    'static/chunks/pages/blog/[...slug]-689f276b38ea158d.js',
+  ],
+  '/tags': ['static/chunks/pages/tags-9a6f95616c78057d.js'],
+  '/tags/[tag]': ['static/chunks/pages/tags/[tag]-fdd318410f3149a2.js'],
+  sortedPages: [
+    '/',
+    '/404',
+    '/_app',
+    '/_error',
+    '/blog',
+    '/blog/page/[page]',
+    '/blog/[...slug]',
+    '/tags',
+    '/tags/[tag]',
+  ],
+}),
+  self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
