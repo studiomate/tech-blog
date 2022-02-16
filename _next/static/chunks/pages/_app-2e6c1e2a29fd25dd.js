@@ -1635,7 +1635,7 @@
                   children: [
                     (0, r.jsx)('div', {
                       children: (0, r.jsx)(I.Z, {
-                        href: 'prefix/',
+                        href: '/',
                         'aria-label': g().headerTitle,
                         children: (0, r.jsx)('div', {
                           className: 'flex items-center justify-between',
@@ -1653,7 +1653,7 @@
                           className: 'hidden sm:block',
                           children: k.map(function (e) {
                             return (0,
-                            r.jsx)(I.Z, { href: 'https://studiomate.github.io/tech-blog' + e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
+                            r.jsx)(I.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
                           }),
                         }),
                         (0, r.jsx)(P, {}),
