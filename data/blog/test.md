@@ -1,8 +1,8 @@
 ---
 title: 테스트글
-date: '2022-02-10'
-tags: ['테스트글', '테스트']
-summary: 테스트용 글입니다 ㅎㅎ
+date: '2022-02-25'
+tags: ['테스트글', '배포?']
+summary: 배포되나??
 authors: ['default', 'daewoong']
 layout: PostLayout
 ---
