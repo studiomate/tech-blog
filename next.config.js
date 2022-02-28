@@ -2,7 +2,7 @@ module.exports = {
   reactStrictMode: true,
   images: {
     loader: 'akamai',
-    path: 'https://studiomate.github.io/tech-blog/',
+    path: 'https://helloworld.studiomate.kr/',
   },
 
   webpack: (config, { dev, isServer }) => {

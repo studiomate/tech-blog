@@ -8,9 +8,17 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { useTheme } from 'next-themes'
+import Image from './Image'
 
 const WhiteLogo = () => {
-  return <img src="/static/favicons/Logo_Horizontal_White.png" width="162px" />
+  return (
+    <Image
+      src="/static/favicons/Logo_Horizontal_White.png"
+      width="162px"
+      height="16px"
+      alt="logo"
+    />
+  )
 }
 
 const LayoutWrapper = ({ children }) => {
@@ -23,7 +31,9 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3">{theme === 'dark' ? <WhiteLogo /> : <Logo />}</div>
+                <div className="mr-3 flex items-center">
+                  {theme === 'dark' ? <WhiteLogo /> : <Logo />}
+                </div>
               </div>
             </Link>
           </div>
