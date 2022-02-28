@@ -13,11 +13,27 @@
   </url>
 
   <url>
+    <loc>https://studiomate.kr/blog/Redux Toolkit and Redux Saga</loc>
+  </url>
+
+  <url>
     <loc>https://studiomate.kr/blog/test</loc>
   </url>
 
   <url>
     <loc>https://studiomate.kr/blog/test2</loc>
+  </url>
+
+  <url>
+    <loc>https://studiomate.kr/tags/redux</loc>
+  </url>
+
+  <url>
+    <loc>https://studiomate.kr/tags/redux-saga</loc>
+  </url>
+
+  <url>
+    <loc>https://studiomate.kr/tags/redux-toolkit</loc>
   </url>
 
   <url>
