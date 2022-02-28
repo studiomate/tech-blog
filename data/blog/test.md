@@ -1,7 +1,7 @@
 ---
 title: 테스트글
 date: '2022-02-25'
-tags: ['테스트글', '배포?']
+tags: ['tag1', 'tag2']
 summary: 배포되나??
 authors: ['default', 'daewoong']
 layout: PostLayout
