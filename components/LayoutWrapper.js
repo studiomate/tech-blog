@@ -1,13 +1,17 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
-import WhiteLogo from '@/data/logo-white.svg'
+// import WhiteLogo from '@/data/logo-white.svg'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { useTheme } from 'next-themes'
+
+const WhiteLogo = () => {
+  return <img src="/static/favicons/Logo_Horizontal_White.png" width="162px" />
+}
 
 const LayoutWrapper = ({ children }) => {
   const { theme, setTheme, resolvedTheme } = useTheme()
@@ -19,7 +23,7 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3">{theme === 'light' ? <Logo /> : <WhiteLogo />}</div>
+                <div className="mr-3">{theme === 'dark' ? <WhiteLogo /> : <Logo />}</div>
               </div>
             </Link>
           </div>
