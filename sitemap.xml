@@ -17,14 +17,6 @@
   </url>
 
   <url>
-    <loc>https://studiomate.kr/blog/test</loc>
-  </url>
-
-  <url>
-    <loc>https://studiomate.kr/blog/test2</loc>
-  </url>
-
-  <url>
     <loc>https://studiomate.kr/tags/redux</loc>
   </url>
 
@@ -34,13 +26,5 @@
 
   <url>
     <loc>https://studiomate.kr/tags/redux-toolkit</loc>
-  </url>
-
-  <url>
-    <loc>https://studiomate.kr/tags/tag1</loc>
-  </url>
-
-  <url>
-    <loc>https://studiomate.kr/tags/tag2</loc>
   </url>
 </urlset>
