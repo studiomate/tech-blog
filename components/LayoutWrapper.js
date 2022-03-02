@@ -22,7 +22,7 @@ const WhiteLogo = () => {
 }
 
 const LayoutWrapper = ({ children }) => {
-  const { theme, setTheme, resolvedTheme } = useTheme()
+  const { resolvedTheme } = useTheme()
 
   return (
     <SectionContainer>
@@ -32,7 +32,7 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3 flex items-center">
-                  {theme === 'dark' ? <WhiteLogo /> : <Logo />}
+                  {resolvedTheme === 'dark' ? <WhiteLogo /> : <Logo />}
                 </div>
               </div>
             </Link>
