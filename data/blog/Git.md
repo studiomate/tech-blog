@@ -37,11 +37,11 @@ Git 은 코드를 보다 안전하고 효율적으로 관리하기 위해 만들
 
 ### 파일 자체를 저장하는게 코드가 존재하는 시점 - 순간(스냅샷)을 저장하기 떄문에 가볍게 구동됩니다.
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-snapshot.png"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-snapshot.png"/>
 
 ### 거의 모든 작업이 로컬에서 이뤄지기 때문에 외부 환경에 의해 작업 속도가 지연되지 않습니다.
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-structure.png"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-structure.png"/>
 
 ### 작업 공간(Working Directory)
 
@@ -67,7 +67,7 @@ Git 은 코드를 보다 안전하고 효율적으로 관리하기 위해 만들
 
 ### 각 작업자 별로 작업해도 하나의 코드로 관리할 수 있게 해주는 기능을 제공합니다. (브랜치)
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-branch.jpeg"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-branch.jpeg"/>
 
 Git 은 각각의 역할을 수행하는 포인터가 존재합니다.
 
@@ -89,7 +89,7 @@ testing 이라는 브랜치를 새로 만들어낸 것을 도식화한 것입니
 브랜치는 다르지만 같은 커밋 인 f30ab 를 바라보고 있기 때문에  
 사실상 작업 내역이나 코드는 똑같습니다.
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-branch2.jpeg"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-branch2.jpeg"/>
 
 하지만 여기서 git commit 을 하게되면 브랜치 testing 은 master 브랜치에서 분기하여  
 독립적인 기록을 가진 브랜치로 변경됩니다. 이런 경향은 master 브랜치에 커밋이 진행될 수록 심화됩니다.
@@ -98,7 +98,7 @@ testing 이라는 브랜치를 새로 만들어낸 것을 도식화한 것입니
 master 브랜치의 작업과 상이하게 되고, 후에 이를 합치려고 할 때 당연히 충돌하는 지점이 생기게 됩니다.  
 이런 상황을 대비하여 git 에서는 두가지 기능을 제공합니다.
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-merge.jpeg"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-merge.jpeg"/>
 
 하나는 git merge 입니다.  
 위의 상황은 master 브랜치에서 git merge testing 을 실행했을 때를 도식화한 것입니다.  
@@ -107,7 +107,7 @@ master, testing 두 브랜치의 커밋이 모두 보존된 상태로 새로운 
 이렇게 되었을 때의 장점은 각 브랜치의 작업 내역이 모두 보존되어 있기 때문에  
 각 브랜치에 대한 이슈를 추적하려 할 때 각 작업자가 어떤 의도로, 어떤 코드를 추가, 수정했는지 파악하기 용이하다는 것입니다.
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-rebase.jpeg"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-rebase.jpeg"/>
 
 다른 하나는 git rebase 입니다.  
 위의 상황은 testing 브랜치에서 git rebase master 를 실행했을 때를 도식화한 것입니다.  
@@ -120,9 +120,9 @@ testing 브랜치의 87ab2 커밋의 내용을 c2b9e 커밋 위에 쌓아올린 
 
 ## 각 저장소가 주 저장소와 같은 기능을 수행할 수 있다
 
-### 원격 저장소에 문제가 생겨도 각 로컬 저장소에 진행사항이 백업되어 있기 때문에 쉽게 복구 가능하다
+### 각 로컬 저장소에 진행사항이 백업되어 있기 때문에 쉽게 복구 가능하다
 
-<img alt="git 구조" src="../../public/static/images/git_article_image/git-result.jpeg"/>
+<img alt="git 구조" src="/public/static/images/git_article_image/git-result.jpeg"/>
 
 # 정리
 
