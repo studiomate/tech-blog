@@ -13,7 +13,15 @@
   </url>
 
   <url>
+    <loc>https://studiomate.kr/blog/Git</loc>
+  </url>
+
+  <url>
     <loc>https://studiomate.kr/blog/Redux Toolkit and Redux Saga</loc>
+  </url>
+
+  <url>
+    <loc>https://studiomate.kr/tags/git</loc>
   </url>
 
   <url>
@@ -26,5 +34,9 @@
 
   <url>
     <loc>https://studiomate.kr/tags/redux-toolkit</loc>
+  </url>
+
+  <url>
+    <loc>https://studiomate.kr/tags/version-control-system</loc>
   </url>
 </urlset>

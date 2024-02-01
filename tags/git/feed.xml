@@ -8,7 +8,7 @@
       <managingEditor>undefined ((주)스튜디오메이트)</managingEditor>
       <webMaster>undefined ((주)스튜디오메이트)</webMaster>
       <lastBuildDate>Wed, 26 Jan 2022 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://studiomate.kr/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://studiomate.kr/tags/git/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://studiomate.kr/blog/Git</guid>
@@ -18,16 +18,6 @@
     <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
     <author>undefined ((주)스튜디오메이트)</author>
     <category>git</category><category>Version Control System</category>
-  </item>
-
-  <item>
-    <guid>https://studiomate.kr/blog/Redux Toolkit and Redux Saga</guid>
-    <title>Redux Toolkit, Redux Saga</title>
-    <link>https://studiomate.kr/blog/Redux Toolkit and Redux Saga</link>
-    <description>Redux Toolkit, Redux Saga 학습 내용 정리</description>
-    <pubDate>Wed, 26 Jan 2022 00:00:00 GMT</pubDate>
-    <author>undefined ((주)스튜디오메이트)</author>
-    <category>redux</category><category>redux saga</category><category>redux toolkit</category>
   </item>
 
     </channel>
